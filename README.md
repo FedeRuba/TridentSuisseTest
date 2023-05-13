@@ -35,7 +35,7 @@ npm i
 ```
 10. Eseguire il comando per compilare il backend:
 ```
-tsc
+npx tsc
 ```
 11. Eseguire il comando per avviare il backend:
 ```
