@@ -97,7 +97,6 @@ app.post('/api/login', async (req: Request, res: Response) => {
 app.post('/api/logout', async (req: Request, res: Response) => {
   try {
     res.clearCookie('access_token');
-    console.log('logout')
     res.status(200).json({ message: 'Logout avvenuto con successo' });
   } catch (error) {
     console.error(error);
